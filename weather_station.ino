@@ -71,7 +71,7 @@ void sendSensor()   //Function used to send sensor data to Blynk App..
           float ba =  bmp.readAltitude();
  
   
- //_______________Printing the valus of the above read value on to the Virtual Pins in the Bluynk App(Sending Values to Blynk App)_____________
+ //_______________Printing the valus of the above read value on to the Virtual Pins in the Blynk App(Sending Values to Blynk App)_____________
  
           Blynk.virtualWrite(V5 , 98); //humidity
           Blynk.virtualWrite(V6 , 30); //temperature
